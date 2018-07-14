@@ -16,8 +16,11 @@ Then spent a few hours troubleshooting and figuring out how things worked until 
     -   Once you have installed the PowerTrello module, run the following commands:
 
 import-module PowerTrello
+
 set-TrelloConfiguration -apiKey *API KEY FROM STEP 1* -AccessToken *Token ID also generated in Step 1*
+
 get-TrelloConfiguration
+
 get-trelloboard
 
 Record the ID's of the boards you want to track from the list that is generated.
